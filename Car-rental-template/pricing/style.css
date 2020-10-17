@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.intro-2 {
+    background: url("https://images.unsplash.com/photo-1532057997301-348078fae427?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80.jpg")no-repeat center center;
+    background-size: cover;
+}
+.view {
+    margin-top: -56px;
+    
+}
+.navbar {
+    z-index: 0;
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.navbar
+{
+    position: sticky!important;
+}
+
+
+#price
+{
+    padding: 40px 0;
+    background: #efefef;
+}
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left ;
+    
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head
+{
+    background-color: #2196f3;
+    display: inline;
+   float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+
+}
+.price-head h2
+{
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 5px;
+padding: 5px;
+text-transform: capitalize;
+}
+.price-head h3
+{
+ font-size: 25px;
+ font-weight: bold;
+ color: #ccc;
+ line-height: 30px;
+}
+.price-head p
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span{
+    font-size: 15px;
+}
+.price-content
+{
+    display: inline;
+    float:left;
+    width: 100%;
+    padding: 15px;
+    
+}
+.price-content p
+{
+font-size: 15px;
+padding-top: 10px;
+text-align: center;
+
+}
+
+.price-button
+{
+display: inline;
+float: left;
+padding: 0 0 30px ;
+text-align: center;
+width: 100%;
+}
+
+.buy-btn
+{
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.buy-btn:hover
+{
+    border-color: 1px solid white;
+    background-color: #3f51b5;
+}
+
+a{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+
+
+
+
+
+.phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 20px; /* Add space around background */
+
+}
+.phoneicon{
+    width: 80px; /* Set width of icon */
+    height: 80px; /* Set height of icon */
+}
+@media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+}
+@media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+}
